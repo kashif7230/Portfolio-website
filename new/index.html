@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Kashif Portfolio</title>
+    <meta name="description" content="Professional web developer and SEO expert portfolio. Creating stunning, responsive, and high-performance websites that blend design & functionality.">
+    <meta property="og:title" content="Mohd Kashif - Portfolio">
+    <meta property="og:description" content="Professional web developer and SEO expert portfolio.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-brand">Mohd Kashif</div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="Resume.pdf" class="nav-link">Resume</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">&#9776;</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="tech-icons">
+                    <div class="tech-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="tech-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="tech-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                        </svg>
+                    </div>
+                </div>
+                <h1>Welcome To My</h1>
+                <h2 class="gradient-text">Portfolio Website</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Hello It's Me</h3>
+                    <h2 class="gradient-text">Mohd Kashif</h2>
+                    <p class="subtitle">BSc Computer Science | University of Delhi</p>
+                    <p class="description">My goal is to create impactful digital experiences that solve real-world problems and contribute to meaningful projects.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-pill">AI/ML Engineer</span>
+                        <span class="tech-pill">Web Developer</span>
+                        <span class="tech-pill">Software Engineer</span>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+
+                    <div class="social-links">
+                        <a href="https://github.com/kashif7230" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohd-kashif-9560md/" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/mdkashif_30/" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="profile image.png" class="profile-img animate-glow" alt="Mohd Kashif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Extended -->
+    <section class="about-extended">
+        <div class="container">
+            <div class="about-box">
+                <h2 class="gradient-text">About Me</h2>
+                <div class="about-card">
+                    <p>Third year BSc. Computer Science undergraduate with hands-on experience in AI/ML, full-stack web development, and 
+cloud-based deployment. Built machine learning applications and React-based web platforms with real-time functionality. 
+Strong understanding of data structures, OOP, REST APIs, and model deployment. Passionate about developing scalable, 
+data-driven solutions. </p>
+                    <div class="about-buttons">
+                        <a href="Resume.pdf" class="btn btn-primary">&#128196; Download Resume</a>
+                        <a href="#portfolio" class="btn btn-outline">&#128065; View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio Showcase</h2>
+                <p class="section-description">Explore My Journey through Projects, Technical Expertise and Certificates. Each Section Represents a Milestone in My Continuous Learning Path.</p>
+            </div>
+
+            <!-- Projects -->
+            <div class="portfolio-section">
+                <h3 class="portfolio-section-title">&#128193; Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <img src="AI chatbot.jpg" alt="Creation Port" class="project-image">
+                            <h3 class="project-title">Mindful Companion</h3>
+                            <p class="project-description"> Developed an open-source web application focused on mental well-being.</p>
+                            <div class="project-links">
+                                <a href="https://mindfullcompanion.netlify.app/" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/kashif7230/MindfulCompanion" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <img src="salary.png" alt="Salary Prediction" class="project-image">
+                            <h3 class="project-title">Salary Prediction</h3>
+                            <p class="project-description">Predict your salary, easy to use and user friendly.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/kashif7230/salary-prediction" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/kashif7230/salary-prediction" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience Section -->
+    <section id="experience" class="experience-container">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">&#128188; Professional Experience</h2>
+                <p class="section-subtitle">My journey through the tech industry</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <!-- Experience 1 -->
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-images">
+                            <img src="loaa.jpg" alt="Offer Letter" class="experience-image1">
+                        </div>
+                        <div class="experience-header">
+                            <div class="job-info">
+                                <h3 class="job-title">Store Listing Manager &amp; Computer Operator</h3>
+                                <div class="company-info">
+                                    <span class="company-name">eBay</span>
+                                    <span class="separator">&#8226;</span>
+                                    <span class="location">Remote</span>
+                                </div>
+                            </div>
+                            <div class="period-badge">2022 – 2025</div>
+                        </div>
+                        <p class="job-description">Store – DailyDealsBazar. Experience as a computer operator, listing product entries on eBay, maintaining all purchase and sales entries in Excel.</p>
+                        <div class="technologies-section">
+                            <h4 class="section-label">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">SEO Listing</span>
+                                <span class="tech-tag">Word</span>
+                                <span class="tech-tag">Product Photography</span>
+                                <span class="tech-tag">Canva</span>
+                                <span class="tech-tag">Excel</span>
+                            </div>
+                        </div>
+                        <div class="achievements-section">
+                            <h4 class="section-label">Key Achievements:</h4>
+                            <ul class="achievements-list">
+                                <li>Experienced store listing manager & computer operator with a solid background in e-commerce operations. </li>
+                                <li>- Managed store listings and backend operations on platforms like eBay for stores such as DailyDealsBazar.</li>
+                                <li> Hands on experience with SEO-optimized listings and product photography to enhance product visibility.</li>
+                            </ul>
+                            <div>
+                            <a href="loa.pdf" class="cert-link">View Offer Letter &#8599;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-images">
+                            <img src="amazon.png" alt="Amazon Store" class="experience-image">
+                            <img src="Flipkart.png" alt="Flipkart Analytics" class="experience-image">
+                        </div>
+                        <div class="experience-header">
+                            <div class="job-info">
+                                <h3 class="job-title">E-commerce Seller</h3>
+                                <div class="company-info">
+                                    <span class="company-name">Amazon &amp; Flipkart</span>
+                                    <span class="separator">&#8226;</span>
+                                    <span class="location">India</span>
+                                </div>
+                            </div>
+                            <div class="period-badge">2024 – Present</div>
+                        </div>
+                        <p class="job-description">Dedicated E-commerce Seller with hands-on experience managing Amazon and Flipkart storefronts</p>
+                        <div class="technologies-section">
+                            <h4 class="section-label">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Canva</span>
+                                <span class="tech-tag">Product Photography</span>
+                                <span class="tech-tag">SEO Listing</span>
+                                <span class="tech-tag">Excel</span>
+                            </div>
+                        </div>
+                        <div class="achievements-section">
+                            <h4 class="section-label">Key Achievements:</h4>
+                            <ul class="achievements-list">
+                                <li>100% positive store rating on Amazon & Gold teir seller on Flipkart</li>
+                                <li>Skilled in handling end-to-end operations including: Product listings, Inventory management, Pricing strategy, Order                                  
+fulfillment, Returns and RTO management Product photography </li>
+                                <li>Proficient in tools like Canva and Microsoft Excel, with knowledge of SEO optimization techniques to boost product visibility</li>
+                                <li>Strong focus on operational efficiency and customer satisfaction, driving store growth and repeat business</li>
+                                <li>Proven ability to set up and manage online stores from scratch, ensuring smooth operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-images">
+                            <img src="offterletterCloud_page-0001.jpg" alt="YouTube Channel" class="experience-image">
+                            <img src="CCcloud_page-0001.jpg" alt="Content Creation" class="experience-image">
+                        </div>
+                        <div class="experience-header">
+                            <div class="job-info">
+                                <h3 class="job-title">AI & Cloud Technology Intern</h3>
+                                <div class="company-info">
+                                    <span class="company-name">IBM</span>
+                                    <span class="separator">&#8226;</span>
+                                    <span class="location">Remote</span>
+                                </div>
+                            </div>
+                            <div class="period-badge">Jul 2025 - Aug 2025</div>
+                        </div>
+                        <p class="job-description"> Integrated AI models with cloud-based platforms for scalable deployment.</p>
+                        <div class="technologies-section">
+                            <h4 class="section-label">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Artifical Intelligence</span>
+                                <span class="tech-tag">Cloud Technology</span>
+                                <span class="tech-tag">Cloud Integration</span>
+                            </div>
+                        </div>
+                        <div class="achievements-section">
+                            <h4 class="section-label">Key Achievements:</h4>
+                            <ul class="achievements-list">
+                                <li>Worked on storage management, deployment pipelines, and version control systems. </li>
+                                <li>Applied AI and cloud concepts to real-world business use cases. </li>
+                                <li> Collaborated with mentors to improve system performance and deployment efficiency.</li>
+                            </ul>
+                        </div>
+                         <a href="OFcloud.pdf" class="cert-link">View Offer Letter &#8599 &thinsp;</a> </tab>
+                          <a href="CCCloud.pdf" class="cert-link"> Completion Certificate &#8599;</a>
+                    </div>
+                </div>
+                <!-- Experience 4-->
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-images">
+                            <img src="CCML.jpg" alt="YouTube Channel" class="experience-image">
+                            <img src="offerletterML.jpg" alt="Content Creation" class="experience-image">
+                        </div>
+                        <div class="experience-header">
+                            <div class="job-info">
+                                <h3 class="job-title">AI & ML Intern</h3>
+                                <div class="company-info">
+                                    <span class="company-name">IBM</span>
+                                    <span class="separator">&#8226;</span>
+                                    <span class="location">Remote</span>
+                                </div>
+                            </div>
+                            <div class="period-badge">Jun 2025 - Jul 2025</div>
+                        </div>
+                        <p class="job-description"> Built end-to-end ML workflows including data preprocessing, feature engineering, model training, and evaluation.</p>
+                        <div class="technologies-section">
+                            <h4 class="section-label">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Artifical Intelligence</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Model Training</span>
+                            </div>
+                        </div>
+                        <div class="achievements-section">
+                            <h4 class="section-label">Key Achievements:</h4>
+                            <ul class="achievements-list">
+                                <li>Implemented machine learning algorithms on structured datasets.  </li>
+                                <li>Improved model accuracy through hyperparameter tuning and validation techniques. </li>
+                                <li>Collaborated with mentors and team members to understand industry-level AI development practices.</li>
+                            </ul>
+                        </div>
+                         <a href="MLOF.pdf" class="cert-link">View Offer Letter &#8599 &thinsp;</a>
+                          <a href="MLCC.pdf" class="cert-link">Completion Certificate &#8599;</a>
+                    </div>
+                </div>
+                <!-- Experience 5-->
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-images">
+                            <img src="ICCTS.jpg" alt="YouTube Channel" class="experience-image">
+                            <img src="OF.jpg" alt="Content Creation" class="experience-image">
+                        </div>
+                        <div class="experience-header">
+                            <div class="job-info">
+                                <h3 class="job-title">Web Developer Intern</h3>
+                                <div class="company-info">
+                                    <span class="company-name">TAMIZHAN SKILLS </span>
+                                    <span class="separator">&#8226;</span>
+                                    <span class="location">Remote</span>
+                                </div>
+                            </div>
+                            <div class="period-badge">Jun 2025 - Jul 2025</div>
+                        </div>
+                        <p class="job-description"> Built and enhanced responsive web pages using modern web technologies.</p>
+                        <div class="technologies-section">
+                            <h4 class="section-label">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Responsive Web Design</span>
+                                <span class="tech-tag">REST API Development</span>
+                                <span class="tech-tag">Firebase (Authentication & Database)</span>
+                            </div>
+                        </div>
+                        <div class="achievements-section">
+                            <h4 class="section-label">Key Achievements:</h4>
+                            <ul class="achievements-list">
+                                <li>Assisted in developing front-end and basic back-end features. </li>
+                                <li> Participated in learning sessions and practical assignments. </li>
+                                <li> Collaborated with mentors to improve web development and deployment efficiency.</li>
+                            </ul>
+                        </div>
+                         <a href="TSOF.pdf" class="cert-link">View Offer Letter &#8599 &thinsp;</a>
+                         <a href="TSCC.pdf" class="cert-link">Completion Certificate &#8599;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- Certificates -->
+            <div class="portfolio-section">
+                <h3 class="portfolio-section-title">&#127942; Certificates</h3>
+                <div class="certificates-grid">
+                    <div class="cert-card">
+                        <img src="accenture software engineering job simulation_page-0001.jpg" alt="Accenture" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Accenture Software Engineering</div>
+                            <div class="cert-desc">Job Simulation Completion</div>
+                            <a href="accenture software engineering job simulation_page-0001.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="Data visualisation_Empowering business with effective insights_page-0001.jpg" alt="TATA" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">TATA Data Visualisation</div>
+                            <div class="cert-desc">Empowering Business Insights</div>
+                            <a href="Data visualisation_Empowering business with effective insights_page-0001.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="udemy learn html and css from beginning to advanced_page-0001.jpg" alt="Udemy" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Udemy HTML &amp; CSS</div>
+                            <div class="cert-desc">Beginning to Advanced</div>
+                            <a href="udemy learn html and css from beginning to advanced_page-0001.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="deloite technology internship_page-0001.jpg" alt="Deloitte" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Deloitte Technology</div>
+                            <div class="cert-desc">Job Simulation Completion</div>
+                            <a href="deloite technology internship_page-0001.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="IBM.jpg" alt="IBM" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">IBM AI Foundation</div>
+                            <div class="cert-desc">Artificial Intelligence Foundation</div>
+                            <a href="IBM.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="googleplay.jpg" alt="Google" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Google Play Store</div>
+                            <div class="cert-desc">Store Listing Certification</div>
+                            <a href="googleplay.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="oracle.jpg" alt="IBM ML" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Oracle Certified Professional</div>
+                            <div class="cert-desc">Generative AI Professional</div>
+                            <a href="oracle.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="geminiCertifiedStudent-1.png" alt="Tamizhan" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Gemini Certified Student</div>
+                            <div class="cert-desc">Google AI</div>
+                            <a href="geminiCertifiedStudent-1.png" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="python.png" alt="Tamizhan" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">Scaler Python Course</div>
+                            <div class="cert-desc">Mastering Essentials of Python</div>
+                            <a href="python.png" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <img src="jpmorgan.jpg" alt="JPMorgan" class="cert-image">
+                        <div class="cert-content">
+                            <div class="cert-title">JPMorgan Chase</div>
+                            <div class="cert-desc">Software Engineering Job Simulation</div>
+                            <a href="jpmorgan.jpg" class="cert-link">View &#8599;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills -->
+            <div class="portfolio-section" style="margin-top: 6rem;">
+                <h3 class="portfolio-section-title">&#128640; My Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">&#129302;</div>
+                        <span class="skill-name">AI &amp; ML</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128013;</div>
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#127758;</div>
+                        <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#127752;</div>
+                        <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128293;</div>
+                        <span class="skill-name">Firebase</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128187;</div>
+                        <span class="skill-name">C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128396;</div>
+                        <span class="skill-name">Graphic Design</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128202;</div>
+                        <span class="skill-name">Data Visualisation</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"> &#127912;</div>
+                        <span class="skill-name">Canva</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#127909;</div>
+                        <span class="skill-name">Video Editing</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128717;</div>
+                        <span class="skill-name">E-commerce</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128269;</div>
+                        <span class="skill-name">SEO</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">👩🏽‍💻</div>
+                        <span class="skill-name">Data Science</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🧮</div>
+                        <span class="skill-name">SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🧠</div>
+                        <span class="skill-name">DSA</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚛</div>
+                        <span class="skill-name">Java Script</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚛️</div>
+                        <span class="skill-name">React JS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📂</div>
+                        <span class="skill-name">DBMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Ready to bring your vision to life? Let's collaborate and create something amazing together.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>kashu956023@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>+91 9560235589</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Remote Worldwide</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/kashif7230" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohd-kashif-9560md/" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/mdkashif_30/" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-icons">
+                    <div class="skull-icon">&#128128;</div>
+                    <p class="footer-text">&#169; 2025 Mohd Kashif. All rights reserved.</p>
+                    <div class="skull-icon">&#128128;</div>
+                </div>
+                <p class="footer-tagline">Crafted with passion &#10024;</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
